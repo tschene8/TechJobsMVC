@@ -9,7 +9,7 @@ namespace TechJobs.Controllers
         public IActionResult Index()
         {
             ViewBag.columns = ListController.columnChoices;
-            //ViewBag.title = "Search";
+            ViewBag.title = "Search";
             return View();
         }
 
